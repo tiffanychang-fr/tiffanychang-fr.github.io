@@ -27,29 +27,29 @@ $xl: 75em; //1200px
     box-shadow: 0 2px 40px 0 hsla(232, 8%, 63%, .3);
   }
 
-  // @include breakpoint($md) {
-  //   width: 48.4375%;
-  //   margin-right: 3.125%;
+  @include breakpoint(768px) {
+    width: 48.4375%;
+    margin-right: 3.125%;
 
-  //   &:last-of-type,
-  //   &:nth-child(2n+2) {
-  //     margin-right: 0;
-  //   }
-  // }
+    &:last-of-type,
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
 
-  // @include breakpoint($xl) {
-  //   width: 31.25%;
-  //   margin-right: 3.125%;
+  @include breakpoint(1200px) {
+    width: 31.25%;
+    margin-right: 3.125%;
 
-  //   &:nth-child(2n+2) {
-  //     margin-right: 3.125%;
-  //   }
+    &:nth-child(2n+2) {
+      margin-right: 3.125%;
+    }
 
-  //   &:last-of-type,
-  //   &:nth-child(3n+3) {
-  //     margin-right: 0;
-  //   }
-  // }
+    &:last-of-type,
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+  }
 
   &__label {
     position: absolute;
