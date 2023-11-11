@@ -1,5 +1,12 @@
 $bg-color: #fff !default;
 
+// Breakpoints
+$xs: 0;
+$sm: 36em; //576px
+$md: 48em; //768px
+$lg: 62em; //992px
+$xl: 75em; //1200px
+
 .post-card {
   display: block;
   position: relative;
