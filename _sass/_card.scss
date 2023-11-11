@@ -11,7 +11,15 @@ $lg: 62em; //992px
 $xl: 75em; //1200px
 
 .post-list {
+  padding-top: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .post-card {
