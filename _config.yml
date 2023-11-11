@@ -1,8 +1,8 @@
 # site settings
 
-title: Yun-Hsuan CHANG (Tiffany) 
-description: Data Engineer & Full Stack Developer
-taglong: Protfolio site and blog for Yun
+title: Yun-Hsuan CHANG
+description: Protfolio site and blog for Yun
+taglong: Junior data engineer & full stack developer
 tagshort: Yun's site
 url: https://tiffanychang-fr.github.io
 baseurl: ""
