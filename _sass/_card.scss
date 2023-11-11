@@ -10,6 +10,10 @@ $md: 48em; //768px
 $lg: 62em; //992px
 $xl: 75em; //1200px
 
+.post-list {
+  display: flex;
+}
+
 .post-card {
   display: block;
   position: relative;
