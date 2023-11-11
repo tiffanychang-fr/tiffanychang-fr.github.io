@@ -1,8 +1,5 @@
-@mixin container($breakpoint) {
-  margin: 0 auto;
-  @if ($breakpoint != 0) {
-    max-width: $breakpoint;
-  } @else {
-    max-width: 100%;
+@mixin breakpoint($query) {
+  @media only screen and (min-width:#{$query}) {
+    @content;
   }
 }
