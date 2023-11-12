@@ -12,12 +12,12 @@
     {% if post.featured-img %}
       <figure class="post-card__thumb">
         <img
-          src="/assets/img/jpg/photo.jpg"
-          data-srcset="/assets/img/jpg/photo.jpg, /assets/img/jpg/photo.jpg"
+          src="{{ site.photo }}"
+          data-srcset="{{ site.photo }}"
           class="lazyload blur"
           alt="{{post.title}}"
         />
-        <noscript><img src="/assets/img/jpg/photo.jpg" alt="{{ post.title }}"></noscript>
+        <noscript><img src="{{ site.photo }}" alt="{{ post.title }}"></noscript>
       </figure>
 <!--       <figure class="post-card__thumb">
         <img
