@@ -34,6 +34,7 @@
       </figure>
     {% endif %}
   </a>
+  {% if post %}
   <a class="post-card__inner" href="{{ post.url | relative_url }}">
     <div class="post-card__header">
       <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
@@ -48,4 +49,5 @@
       <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
     {% endif %}
   </a>
+  {% endif %}
 </div>
