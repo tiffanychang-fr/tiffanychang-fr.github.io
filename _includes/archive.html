@@ -1,70 +1,13 @@
-{% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-
 <div class="archive">
   <!-- portfolio section 3col -->
-  <section id="portfolio">
+   <section id="portfolio">
     <div class="container">
       <div class="sub-title">
-        <span>Portfolio Style #3 & Columns 3</span>
+        <span>Portfolio</span>
       </div>
       <ul class="row portfolio list-unstyled" id="grid">
-        <li class="col-xs-6 col-md-4 project">
-          <figure>
-            <div class="hovereffect">
-              <img src="{{ site.portfolioimage }}/img-03.jpg" alt="">
-              <div class="overlay">
-                <div class="icons-link">
-                  <a class="left-link" href="#">✨</a>
-<!--                   <a class="right-link" href="#"><i class="fa fa-heart"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </figure>
-          <div class="portfolio block">
-            <h5>Town winter 2017</h5>
-            <p class="project-description">web develpment, design</p>
-          </div>
-        </li>
-        <!-- project -->
 
-        <li class="col-xs-6 col-md-4 project">
-          <figure>
-            <div class="hovereffect">
-              <img src="{{ site.portfolioimage }}/img-05.jpg" alt="">
-              <div class="overlay">
-                <div class="icons-link">
-                  <a class="left-link" href="#">✨</a>
-<!--                   <a class="right-link" href="#"><i class="fa fa-heart"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </figure>
-          <div class="portfolio block">
-            <h5>Quarterly Musashino </h5>
-            <p class="project-description">web develpment, design</p>
-          </div>
-        </li>
         <!-- project -->
-
-        <li class="col-xs-6 col-md-4 project">
-          <figure>
-            <div class="hovereffect">
-              <img src="{{ site.portfolioimage }}/img-01.jpg" alt="">
-              <div class="overlay">
-                <div class="icons-link">
-                  <a class="left-link" href="#">✨</a>
-<!--                   <a class="right-link" href="#"><i class="fa fa-heart"></i></a> -->
-                </div>
-              </div>
-            </div>
-          </figure>
-          <div class="portfolio block">
-            <h5>Majesty express</h5>
-            <p class="project-description">web develpment, design</p>
-          </div>
-        </li>
-        <!-- project -->
-
         <li class="col-xs-6 col-md-4 project">
           <figure>
             <div class="hovereffect">
@@ -81,22 +24,48 @@
             <p class="project-description">web develpment, design</p>
           </div>
         </li>
+        <!-- project -->
+        <li class="col-xs-6 col-md-4 project">
+          <figure>
+            <div class="hovereffect">
+              <img src="{{ site.portfolioimage }}/coffeeinabox.jpg" alt="">
+              <div class="overlay">
+                <div class="icons-link">
+                  <a class="left-link" href="https://fair-pear-sweatpants.cyclic.app/">✨</a>
+                </div>
+              </div>
+            </div>
+          </figure>
+          <div class="portfolio block">
+            <h5>Coffee In A Box </h5>
+            <p class="project-description">web develpment, design</p>
+          </div>
+        </li>
+        <!-- project -->
+        <li class="col-xs-6 col-md-4 project">
+          <figure>
+            <div class="hovereffect">
+              <img src="{{ site.portfolioimage }}/piggyback.jpg" alt="">
+              <div class="overlay">
+                <div class="icons-link">
+                  <a class="left-link" href="https://piggy-back.netlify.app/">✨</a>
+                </div>
+              </div>
+            </div>
+          </figure>
+          <div class="portfolio block">
+            <h5>Piggy Back </h5>
+            <p class="project-description">web develpment, design</p>
+          </div>
+        </li>
       </ul>
     </div>
   </section>
   <!-- End portfolio section 3col -->
   
-  <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+<!--   <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
       {% for post in site.posts %}
           {% include card.html %}
       {% endfor %}
-  </div>
-<!--   {% for yearMonth in postsByYearMonth %}
-  <h2>{{ yearMonth.name }}</h2>
-  <ul>
-    {% for post in yearMonth.items %}
-    <li><a href="{{ post.url }}">{{ post.title }}.</a> <span class="lead">{{ post.lead }}</span></li>
-    {% endfor %}
-  </ul>
-  {% endfor %} -->
+  </div> -->
 </div>
